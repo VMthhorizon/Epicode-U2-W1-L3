@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+
+header nav {
+  background-color: rgb(251, 248, 227);
+  margin: 1em;
+  border-radius: 80px;
+}
+
+#nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em;
+  gap: 1em;
+}
+
+#nav-list img {
+  width: 1.5em;
+}
+
+#nav-list li {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.nav-btn {
+  background-color: rgb(243, 227, 136);
+  color: rgb(110, 53, 30);
+  width: 100%;
+  height: 90px;
+  border-radius: 80px;
+  border: none;
+  font-weight: 750;
+  font-size: 1em;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.nav-btn:hover {
+  cursor: pointer;
+}
+
+#nav-list li:first-child {
+  flex-basis: 100%;
+  width: 100%;
+  font-size: 2em;
+}
+
+#nav-list li:not(:first-child) {
+  flex-basis: 45%;
+}
+
+.card-container {
+  border-radius: 200px;
+  background-color: yellow;
+}
+
+.card-text {
+  color: brown;
+}
